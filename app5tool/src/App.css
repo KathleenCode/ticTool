@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  background-color: #EEF296;
+  border-radius: 30%;
+  padding: 1rem 2.3rem;
+  border: 3px dashed #FF9EAA;
+  margin: 1rem;
+  box-shadow: 13px 1px 2px #EEE3CB;
+}
+
+.form label {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #7E1717;
+}
+.form input, textarea {
+  background-color: #FFF6F4;
+  padding: 1rem;
+  border: 2.7px dashed #EC53B0;
+  outline: #967E76;
+  border-radius: 25%;
+}
+.form button {
+  color: #E55807;
+  display: block;
+  font-weight: bold;
+  padding: 1rem 1.7rem;
+  border: 1.3px dashed #EC53B0;
+  background-color: #D7C0AE;
+  margin: 1.5rem 3.5rem;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+
+.ou {
+  background-color: #A2FF86;
+  border: 5px dotted #F86F03;
+  border-radius: 15%;
+  margin: 1rem;
+}
+
+.ou p {
+  border-bottom: 1px solid #FFA41B;
+}
+
+.ou button {
+  padding: .3rem 1rem;
+  margin: .5rem;
+  border: 1px solid #F7B787;
+  border-radius: 10px;
+  color: #FF0060;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
